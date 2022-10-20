@@ -629,18 +629,20 @@ export default {
 </script>
 
 <style>
-
-/* html,
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
 body {
   height: 100vh;
   font-family: "Work Sans", sans-serif;
   color: aliceblue;
-  overflow-y: hidden;
 }
 html::-webkit-scrollbar {
   width: 0;
   height: 0;
-} */
+}
 
 
 

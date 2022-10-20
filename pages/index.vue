@@ -69,10 +69,11 @@ html {
   padding: 0;
   background: #25252B;
   scrollbar-width: none;
-  overflow-y: scroll;
+  overflow-y: auto !important;
 }
 html::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
 </style>
+
