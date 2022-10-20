@@ -1,5 +1,5 @@
 <template>
-  <v-main ref="background" style="padding: 0px 0px 0px 0px;">
+  <div>
     <v-row justify="center" align="center" style="padding: 10px 0px 0px 0px;">
     <v-col justify="center" align="center" cols="4">
           <v-btn
@@ -38,7 +38,7 @@
     <div id="datavis"></div>
   </v-col>
   </v-row>
-</v-main>
+</div>
 </template>
 
 <script>
@@ -630,17 +630,17 @@ export default {
 
 <style>
 
-html {
-  margin: 0;
-  padding: 0;
-  background: #25252B;
-  scrollbar-width: none;
-  overflow: hidden;
+/* html,
+body {
+  height: 100vh;
+  font-family: "Work Sans", sans-serif;
+  color: aliceblue;
+  overflow-y: hidden;
 }
 html::-webkit-scrollbar {
   width: 0;
   height: 0;
-}
+} */
 
 
 
