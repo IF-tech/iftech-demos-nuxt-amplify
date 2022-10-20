@@ -75,3 +75,17 @@
     </v-col>
   </v-row>
 </template>
+
+<style lang="scss" scoped>
+html {
+  margin: 0;
+  padding: 0;
+  background: #25252B;
+  scrollbar-width: none;
+  overflow-y: auto;
+}
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+</style>
