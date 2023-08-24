@@ -1,15 +1,20 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
+  <v-container><Services></Services>
+  <!-- <v-row justify="center" align="center">
+    <v-col cols="12" sm="8" md="6"> -->
+      <!-- <v-card><div class="page-container">
+ <AudioVisualizer></AudioVisualizer>
+
+  </div></v-card> -->
+      <!-- <v-card class="logo py-4 d-flex justify-center">
         <v-img
           height="180px"
           max-width="180"
           src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/ian-floyd-profile-picture.png"
           alt=""
         ></v-img>
-      </v-card>
-      <v-card>
+      </v-card> -->
+      <!-- <v-card>
         <v-card-title class="headline">
           ifTech Digital Foundry and Boutique
         </v-card-title>
@@ -47,9 +52,10 @@
           <v-spacer />
           <v-btn color="primary" nuxt to="/inspire"> Continue </v-btn>
         </v-card-actions>
-      </v-card>
-    </v-col>
-  </v-row>
+      </v-card> -->
+    <!-- </v-col>
+  </v-row> -->
+</v-container>
 </template>
 
 <style lang="scss" scoped>
@@ -66,3 +72,24 @@ html::-webkit-scrollbar {
 }
 </style>
 
+
+<script>
+import AudioVisualizer from './audiovis.vue';
+import Services from '../components/Services.vue'
+
+export default {
+  components: {
+    AudioVisualizer,
+    Services
+  },
+};
+</script>
+
+<style>
+.page-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
