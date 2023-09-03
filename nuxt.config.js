@@ -70,5 +70,15 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {transpile: ['gsap']},
+  modules: ['@nuxtjs/axios', '@nuxtjs/proxy'],
+  axios: {
+    proxy: false,
+  },
+  build: {
+    vendor: ['axios'], // Description: Avoid duplicate packaging.
+  },
+  env: {
+    stripePublishableKey: 'pk_test_51NlZ9nEb4odzvHHtJsaDexArpRrmeCTo1NA12XeFIJc59GOiTiMvQ1C87ZC69FX4hVDsBicL9E8eR2caEsShW2nn00QDXUvawh',
+  },
 }

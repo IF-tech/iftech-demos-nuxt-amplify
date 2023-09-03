@@ -42,7 +42,7 @@
 
 <script>
 export default {
-  name: 'DatabaseCleaning',
+  name: 'PredictiveAnalytics',
 
   data() {
     return {}
