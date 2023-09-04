@@ -40,8 +40,16 @@
       >
         <v-icon>mdi-application</v-icon>
       </v-btn> -->
+
       <v-spacer />
-      <v-toolbar-title v-text="title" />
+      <div>
+        <v-img
+          width="300"
+          src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
+          alt=""
+          style="margin-top: 20%"
+        ></v-img>
+      </div>
       <v-spacer />
     </v-app-bar>
     <v-main>
@@ -60,6 +68,8 @@ export default {
       clipped: null,
       drawer: false,
       fixed: null,
+      logoURL:
+        'https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg',
       items: [
         {
           icon: 'mdi-heart',
@@ -88,3 +98,5 @@ export default {
   },
 }
 </script>
+
+

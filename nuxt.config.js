@@ -1,6 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - portfolio',
@@ -70,7 +71,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {transpile: ['gsap']},
+  build: {transpile: ['gsap', 'three']},
   modules: ['@nuxtjs/axios', '@nuxtjs/proxy'],
   axios: {
     proxy: false,
@@ -79,6 +80,5 @@ export default {
     vendor: ['axios'], // Description: Avoid duplicate packaging.
   },
   env: {
-    stripePublishableKey: 'pk_test_51NlZ9nEb4odzvHHtJsaDexArpRrmeCTo1NA12XeFIJc59GOiTiMvQ1C87ZC69FX4hVDsBicL9E8eR2caEsShW2nn00QDXUvawh',
   },
 }

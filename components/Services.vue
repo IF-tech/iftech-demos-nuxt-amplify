@@ -287,6 +287,7 @@ export default {
 </script>
 
 <style scoped>
+::-webkit-scrollbar {display:none;}
 .expanded-view {
   /* Styles for expanded/full-list view here */
 }

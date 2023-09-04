@@ -65,11 +65,9 @@ html {
   background: #25252b;
   scrollbar-width: none;
   overflow-y: auto !important;
+
 }
-html::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
+::-webkit-scrollbar {display:none;}
 </style>
 
 
