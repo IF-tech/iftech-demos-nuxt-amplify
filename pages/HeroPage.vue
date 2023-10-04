@@ -6,10 +6,11 @@
           <v-img
             src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
             alt=""
-            style="margin-top: 5%"
+           
           ></v-img>
         </v-col>
       </v-row>
+      <v-row justify="space-between"><v-col><v-btn>Browse Services</v-btn></v-col><v-col><v-btn>About ifTech</v-btn></v-col></v-row>
       <div class="spacer red"></div>
       <div class="development">
         <h1>DEVELOPMENT</h1>

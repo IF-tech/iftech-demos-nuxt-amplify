@@ -16,7 +16,7 @@
               <p>Going Rate: {{ service.goingRate }}</p>
               <p>ifTech Rate: {{ service.iftechRate }}</p>
               <router-link :to="`${service.linkTo}`" class="book-button"
-                >Book Now</router-link
+                >Learn More</router-link
               >
             </div>
           </div>
@@ -37,7 +37,7 @@
               <p>Going Rate: {{ service.goingRate }}</p>
               <p>ifTech Rate: {{ service.iftechRate }}</p>
               <router-link :to="`${service.linkTo}`" class="book-button"
-                >Book Now</router-link
+                >Learn More</router-link
               >
             </div>
           </div>
@@ -59,7 +59,7 @@
               <p>Going Rate: {{ service.goingRate }}</p>
               <p>ifTech Rate: {{ service.iftechRate }}</p>
               <router-link :to="`${service.linkTo}`" class="book-button"
-                >Book Now</router-link
+                >Learn More</router-link
               >
             </div>
           </div>

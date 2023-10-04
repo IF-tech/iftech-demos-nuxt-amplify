@@ -26,8 +26,13 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" fixed app>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+    <v-app-bar :clipped-left="clipped" style="height: 10vh">
+      <v-container fluid fill-height>
+        <v-row align-items="center">
+          
+          <v-col>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
+    </v-col>
       <!-- <v-btn
         icon
         @click.stop="miniVariant = !miniVariant"
@@ -41,16 +46,21 @@
         <v-icon>mdi-application</v-icon>
       </v-btn> -->
 
-      <v-spacer />
-      <div>
+     <v-col>
+     
         <v-img
-          width="300"
+          contain
+         style="max-height: 50%"
           src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
-          alt=""
-          style="margin-top: 20%"
+          alt="IFTECH DIGITAL FOUNDRY"
+        
         ></v-img>
-      </div>
-      <v-spacer />
+     
+     </v-col>
+     <v-col></v-col>
+
+    </v-row>
+      </v-container>
     </v-app-bar>
     <v-main>
       <Nuxt />
