@@ -23,7 +23,7 @@
           ></v-col
         ><v-spacer></v-spacer
       ></v-row>
-      <div class="spacer red"></div>
+      <div class="red"></div>
       <div class="development">
         <v-row
           ><v-col><h1>DEVELOPMENT</h1></v-col

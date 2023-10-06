@@ -4,8 +4,8 @@ export default {
   ssr: false,
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - portfolio',
-    title: 'portfolio',
+    titleTemplate: '%s - Digital Foundry',
+    title: 'IFTECH',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -71,7 +71,7 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {transpile: ['gsap', 'three']},
+  build: { transpile: ['gsap', 'three'] },
   modules: ['@nuxtjs/axios', '@nuxtjs/proxy'],
   axios: {
     proxy: false,
@@ -79,6 +79,5 @@ export default {
   build: {
     vendor: ['axios'], // Description: Avoid duplicate packaging.
   },
-  env: {
-  },
+  env: {},
 }
