@@ -77,7 +77,7 @@ export default {
         title: 'Data Mining',
         description: 'Extracting valuable insights from large datasets.',
         goingRate: '$60 - $80/hour',
-        iftechRate: '~$49/hour',
+        iftechRate: '~$39/hour',
         linkTo: '/Services/DataMining',
       },
       {
@@ -91,13 +91,13 @@ export default {
         title: 'Data Cleaning',
         description: 'Ensuring accuracy and integrity of your data.',
         goingRate: '$50 - $60/hour',
-        iftechRate: '~$42/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Predictive Analytics',
         description: 'Using advanced tech to predict future outcomes.',
         goingRate: '$70 - $90/hour',
-        iftechRate: '~$69/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Data Visualization',
@@ -109,32 +109,32 @@ export default {
         title: 'Machine Learning',
         description: 'Improving your systems with data-driven algorithms.',
         goingRate: '$80 - $100/hour',
-        iftechRate: '~$71/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Data Integration',
         description: 'Combining data and applications into one unified system.',
         goingRate: '$60 - $80/hour',
-        iftechRate: '~$59/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Big Data Solutions',
         description:
           'Handling massive volumes of both structured and unstructured data.',
         goingRate: '$80 - $100/hour',
-        iftechRate: '~$72/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Real-time Analytics',
         description: 'Providing analysis as soon as data enters the system.',
         goingRate: '$65 - $85/hour',
-        iftechRate: '~$59/hour',
+        iftechRate: '~$39/hour',
       },
       {
         title: 'Cloud Database Solutions',
         description: 'Securely manage and analyze your data on cloud.',
         goingRate: '$70 - $90/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$39/hour',
       },
     ],
 
@@ -143,61 +143,61 @@ export default {
         title: 'App Development',
         description: 'Building user-friendly mobile apps.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'Web Development',
         description: 'Creating cutting-edge and responsive websites.',
         goingRate: '$70 - $90/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'Software Development',
         description: 'Designing and developing high-quality software.',
         goingRate: '$70 - $100/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'Game Development',
         description: 'Creating engaging and interactive video games.',
         goingRate: '$80 - $110/hour',
-        iftechRate: '~$72/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'API Development',
         description: 'Developing secure APIs for flexible solutions.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'Backend Development',
         description: 'Strengthening your apps with a powerful backend.',
         goingRate: '$70 - $100/hour',
-        iftechRate: '$63/hour',
+        iftechRate: '$49/hour',
       },
       {
         title: 'Frontend Development',
         description: 'Designing accessible and intuitive UIs.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'E-commerce Development',
         description: 'Developing robust E-commerce platforms.',
         goingRate: '$75 - $105/hour',
-        iftechRate: '~$68/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'CMS Development',
         description: 'Customizing CMS as per your business needs.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$49/hour',
       },
       {
         title: 'Cross-Platform App Development',
         description: 'Creating apps that work seamlessly across devices.',
         goingRate: '~$70 - $100/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$49/hour',
       },
     ],
 
@@ -206,62 +206,62 @@ export default {
         title: 'Branding',
         description: 'Building strong and unique brand identities.',
         goingRate: '$70 - $100/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Logo Design',
         description: 'Designing logos that represent your brand.',
         goingRate: '$50 - $80/hour',
-        iftechRate: '~$45/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Graphic Design',
         description: 'Creating visually appealing graphics.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'UX/UI Design',
         description: 'Improving user experience and interface.',
         goingRate: '$70 - $100/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: '2D/3D Asset Creation',
         description: 'Crafting beautiful and detailed 2D/3D assets.',
         goingRate: '$80 - $110/hour',
-        iftechRate: '~$72/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Website Layout Design',
         description: 'Designing coherent and impactful website layouts.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Print Design',
         description: 'Creating designs for printed media.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Illustration',
         description: 'Turning ideas into unique and expressive illustrations.',
         goingRate: '$70 - $100/hour',
-        iftechRate: '~$63/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Motion Graphics',
         description: 'Enhance your stories with captivating motion graphics.',
         goingRate: '$80 - $110/hour',
-        iftechRate: '~$72/hour',
+        iftechRate: '~$29/hour',
       },
       {
         title: 'Infographics',
         description:
           'Presenting complex information through engaging infographics.',
         goingRate: '$60 - $90/hour',
-        iftechRate: '~$54/hour',
+        iftechRate: '~$29/hour',
       },
     ],
     serviceTitles: ['Data Services', 'Development Services', 'Design Services'],
@@ -287,7 +287,9 @@ export default {
 </script>
 
 <style scoped>
-::-webkit-scrollbar {display:none;}
+::-webkit-scrollbar {
+  display: none;
+}
 .expanded-view {
   /* Styles for expanded/full-list view here */
 }

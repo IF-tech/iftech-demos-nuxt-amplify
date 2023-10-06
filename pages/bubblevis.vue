@@ -14,11 +14,10 @@ export default {
       nodes: null,
       bubbles: null,
       charge: -20,
-      simulation: null
+      simulation: null,
     }
   },
   mounted() {
-
     //Initialize svg to datavis element, assigning the width and height to be the height of the inner window
     this.svg = d3
       .select('#datavis')
@@ -43,12 +42,9 @@ export default {
 
       let bubbles = this.generateBubbles(this.nodes)
 
-
-     this.initializeSimulation(bubbles)
-    this.groupBubblesOnCenter();
-
+      this.initializeSimulation(bubbles)
+      this.groupBubblesOnCenter()
     })
-
   },
 
   methods: {
@@ -140,9 +136,9 @@ export default {
       return bubbles
     },
     groupBubblesOnCenter() {
-      let width = window.innerWidth;
-      let height = window.innerHeight;
-      console.log("bubbles grouping")
+      let width = window.innerWidth
+      let height = window.innerHeight
+      console.log('bubbles grouping')
       console.log(this.simulation)
       // Reset the 'x' force to draw the bubbles to the center.
       this.simulation.force(
@@ -150,7 +146,7 @@ export default {
         d3
           .forceX()
           .strength(0.03)
-          .x(width / 2)
+          .x(width / 1.5)
       )
       this.simulation.force(
         'y',
@@ -162,50 +158,49 @@ export default {
       //We can reset the alpha value and restart the simulation
       this.simulation.alpha(1).restart()
     },
-    initializeSimulation(bubbles){
-      let width = window.innerWidth;
-      let height = window.innerHeight;
+    initializeSimulation(bubbles) {
+      let width = window.innerWidth
+      let height = window.innerHeight
       function charge(d) {
-        return -Math.pow(d.radius, 2.05) * 0.03;
+        return -Math.pow(d.radius, 2.05) * 0.03
       }
       function ticked() {
         bubbles
-          .attr("x", function (d) {
-            return d.x;
+          .attr('x', function (d) {
+            return d.x
           })
-          .attr("y", function (d) {
-            return d.y;
-          });}
+          .attr('y', function (d) {
+            return d.y
+          })
+      }
       //create simulation. velocity decay determines rapidness of animation
       this.simulation = d3
         .forceSimulation()
         .velocityDecay(0.2)
         .force(
-          "x",
+          'x',
           d3
             .forceX()
             .strength(0.03)
-            .x(width/2)
+            .x(width / 1.5)
         )
         .force(
-          "y",
+          'y',
           d3
             .forceY()
             .strength(0.03)
-            .y(height/2)
+            .y(height / 2)
         )
-        .force("charge", d3.forceManyBody().strength(charge))
+        .force('charge', d3.forceManyBody().strength(charge))
         //this force ensures bubbles do not overlap. comment out for overlapping effect which allows bubbles to move more freely past each other
         // .force("collide", d3.forceCollide(function(d) {
         //   return d.radius;
         // }))
-        .on("tick", ticked);
-
-
+        .on('tick', ticked)
 
       // Set the simulation's nodes to our newly created nodes array.
-      this.simulation.nodes(this.nodes);
-    }
+      this.simulation.nodes(this.nodes)
+    },
   },
 }
 </script>

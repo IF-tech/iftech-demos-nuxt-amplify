@@ -6,29 +6,61 @@
           <v-img
             src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
             alt=""
-           
           ></v-img>
         </v-col>
       </v-row>
-      <v-row justify="center" align="center"><v-col><v-row><v-btn style="margin-left: 40vw;" to="/services">Browse Services</v-btn></v-row><v-row><v-btn style="margin-left: 40vw; margin-top: 10px;" to="/about">About ifTech</v-btn></v-row></v-col></v-row>
+
+      <v-row justify-center align-items="center"
+        ><v-spacer></v-spacer
+        ><v-col align-self="end">
+          <v-btn size="large" color="#ffffff" outlined to="/services/all"
+            >Browse Services</v-btn
+          ></v-col
+        >
+        <v-col>
+          <v-btn color="#ffffff" outlined to="/about"
+            >About ifTech</v-btn
+          ></v-col
+        ><v-spacer></v-spacer
+      ></v-row>
       <div class="spacer red"></div>
       <div class="development">
-        
-        <v-row><v-col><h1>DEVELOPMENT</h1></v-col><v-col><v-row><h3>Websites, Apps, Games</h3></v-row><v-row></v-row>
-        </v-col>
+        <v-row
+          ><v-col><h1>DEVELOPMENT</h1></v-col
+          ><v-col
+            ><v-row><h3>Websites, Apps, Games</h3></v-row
+            ><v-row>
+              <p>Rapid, Structured, affordable software development</p></v-row
+            >
+            <v-btn to="/services/dev">Learn More</v-btn>
+          </v-col>
         </v-row>
       </div>
       <div class="spacer blue"></div>
       <div class="development">
-        <v-row><v-col><h1>DATA</h1></v-col><v-col><v-row><h3>DB Design, Cleaning, Analytics </h3></v-row><v-row></v-row>
-        </v-col>
+        <v-row
+          ><v-col><h1>DATA</h1></v-col
+          ><v-col
+            ><v-row><h3>DB Design, Cleaning, Analytics</h3></v-row
+            ><v-row> <p>Unlock the true potential of your datasets</p></v-row>
+            <v-btn to="/services/data">Learn More</v-btn>
+          </v-col>
         </v-row>
       </div>
       <div class="spacer"></div>
       <div class="spacer yellow"></div>
       <div class="development">
-        <v-row><v-col><h1>DESIGN</h1></v-col><v-col><v-row><h3>Branding, Graphics, Illustration, Sound </h3></v-row><v-row></v-row>
-        </v-col>
+        <v-row
+          ><v-col><h1>DESIGN</h1></v-col
+          ><v-col
+            ><v-row><h3>Branding, Graphics, Illustration, Sound</h3></v-row
+            ><v-row
+              ><p>
+                Stand out from the crowd with custom barnding and assets
+              </p></v-row
+            >
+            <v-btn to="/services/data">Learn More</v-btn>
+          </v-col>
         </v-row>
       </div>
       <div class="spacer"></div>
@@ -65,7 +97,7 @@ export default {
         start: 'top center',
         end: 'bottom center',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     })
     devitemtl.to('.development', {
@@ -78,7 +110,7 @@ export default {
         start: 'top center',
         end: 'bottom center',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     })
 
@@ -95,7 +127,7 @@ export default {
         start: 'top center',
         end: 'bottom center',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     })
 
@@ -112,7 +144,7 @@ export default {
         start: 'top center',
         end: 'bottom center',
         scrub: true,
-        markers: true,
+        // markers: true,
       },
     })
 
@@ -122,10 +154,6 @@ export default {
       ease: 'power2.inOut', // Adjust the easing function as needed
       // Delay between color changes
     })
-
-
-
-
 
     const lenis = new Lenis()
 
@@ -358,19 +386,22 @@ export default {
 </style>
 
 <style lang="scss" scoped>
-.development{
+.development {
   font-family: 'Gabarito';
   color: whitesmoke;
   font-size: 3em;
-
 }
-.data{  font-family: 'Libre Barcode 39 Extended Text', cursive;
+.data {
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
   color: whitesmoke;
-  font-size: 3em;}
+  font-size: 3em;
+}
 
-.design{  font-family: 'Libre Barcode 39 Extended Text', cursive;
+.design {
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
   color: whitesmoke;
-  font-size: 3em;}
+  font-size: 3em;
+}
 .small-spacer {
   height: 10vh;
 }

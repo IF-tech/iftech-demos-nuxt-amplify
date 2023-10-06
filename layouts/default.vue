@@ -29,37 +29,32 @@
     <v-app-bar :clipped-left="clipped" style="height: 10vh">
       <v-container fluid fill-height>
         <v-row align-items="center">
-          
           <v-col>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"/>
-    </v-col>
-      <!-- <v-btn
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+          </v-col>
+          <!-- <v-btn
         icon
         @click.stop="miniVariant = !miniVariant"
       >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn> -->
-      <!-- <v-btn
+          <!-- <v-btn
         icon
         @click.stop="clipped = !clipped"
       >
         <v-icon>mdi-application</v-icon>
       </v-btn> -->
 
-     <v-col>
-     
-        <v-img
-          contain
-         style="max-height: 50%"
-          src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
-          alt="IFTECH DIGITAL FOUNDRY"
-        
-        ></v-img>
-     
-     </v-col>
-     <v-col></v-col>
-
-    </v-row>
+          <v-col>
+            <v-img
+              contain
+              style="max-height: 25%"
+              src="https://iftechpublicassets.s3.us-west-2.amazonaws.com/static-public-images/iftechLogo.svg"
+              alt="IFTECH DIGITAL FOUNDRY"
+            ></v-img>
+          </v-col>
+          <v-col></v-col>
+        </v-row>
       </v-container>
     </v-app-bar>
     <v-main>
@@ -93,14 +88,14 @@ export default {
         },
         {
           icon: 'mdi-fire',
-          title: 'Campfire Scene',
+          title: '3D Demo',
           to: '/campfirescene',
         },
-        {
-          icon: 'mdi-atom',
-          title: 'Taurus Knot',
-          to: '/taurusknot',
-        },
+        // {
+        //   icon: 'mdi-atom',
+        //   title: 'Taurus Knot',
+        //   to: '/taurusknot',
+        // },
       ],
       miniVariant: null,
       title: 'Ian Floyd Technology',
