@@ -13,8 +13,8 @@
             <div class="mobile-card">
               <h3>{{ service.title }}</h3>
               <p>{{ service.description }}</p>
-              <p>Going Rate: {{ service.goingRate }}</p>
-              <p>ifTech Rate: {{ service.iftechRate }}</p>
+              <!-- <p>Going Rate: {{ service.goingRate }}</p>
+              <p>ifTech Rate: {{ service.iftechRate }}</p> -->
               <router-link :to="`${service.linkTo}`" class="book-button"
                 >Learn More</router-link
               >
@@ -34,8 +34,8 @@
             <div class="mobile-card">
               <h3>{{ service.title }}</h3>
               <p>{{ service.description }}</p>
-              <p>Going Rate: {{ service.goingRate }}</p>
-              <p>ifTech Rate: {{ service.iftechRate }}</p>
+              <!-- <p>Going Rate: {{ service.goingRate }}</p>
+              <p>ifTech Rate: {{ service.iftechRate }}</p> -->
               <router-link :to="`${service.linkTo}`" class="book-button"
                 >Learn More</router-link
               >
