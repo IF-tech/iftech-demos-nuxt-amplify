@@ -50,13 +50,13 @@
             product using our preferred development stack and best practices.
             <br />
             <p>
-            Testing: We thoroughly test the product to ensure that it is
-            bug-free and meets our client's requirements. Deployment: We deploy
-            the product to a production environment and provide support to our
-            client after launch. Contact iftech at ianfloydtechnology.com today
-            to learn more about how we can help you build your next digital
-            product.
-          </p>
+              Testing: We thoroughly test the product to ensure that it is
+              bug-free and meets our client's requirements. Deployment: We
+              deploy the product to a production environment and provide support
+              to our client after launch. Contact iftech at
+              ianfloydtechnology.com today to learn more about how we can help
+              you build your next digital product.
+            </p>
             <br />
             <p>Preferred development stack:</p>
             <p>Frontend: Vue || Nuxt || Vuetify || Vuex || D3 || ThreeJS</p>
